@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "koreanize-matplotlib-pretendard"
+version = "0.1.1"
+description = "install & import하는 것만으로 matplotlib에서 프리텐다드를 사용하여 한글 그래프를 표시할 수 있습니다."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.13"
+authors = [
+    { name = "kms0219kms", email = "minsu.kim@lunaiz.com" },
+]
+dependencies = [
+    "matplotlib",
+]
+
+[project.urls]
+Homepage = "https://github.com/lunaiz-corp/koreanize-matplotlib-pretendard"
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "twine",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["koreanize_matplotlib"]

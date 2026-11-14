@@ -16,6 +16,10 @@ plt.show()
 
 ![demo](https://github.com/lunaiz-corp/koreanize-matplotlib-pretendard/raw/main/demo.png "demo")
 
+## 실행 환경
+- Python 3.13+
+- matplotlib
+
 ## 설치
 GitHub 저장소에서 직접 설치합니다.
 
@@ -35,6 +39,18 @@ pip install git+https://github.com/lunaiz-corp/koreanize-matplotlib-pretendard.g
 git clone https://github.com/lunaiz-corp/koreanize-matplotlib-pretendard.git
 cd koreanize-matplotlib-pretendard
 pip install .
+```
+
+## 개발 환경 설정
+
+```sh
+uv sync
+```
+
+## 테스트
+
+```sh
+uv run pytest
 ```
 
 ## 사용한 폰트
