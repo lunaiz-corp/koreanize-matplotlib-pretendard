@@ -7,12 +7,12 @@ with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding
 
 install_requires = ['matplotlib']
 
-setup(name='koreanize-matplotlib',
+setup(name='koreanize-matplotlib-pretendard',
       version='0.0.1',
-      description='matplotlib의 폰트 설정을 자동으로 한국어화',
-      author='ychoi-kr',
-      author_email='ychoi_kr@naever.com',
-      url='https://github.com/ychoi-kr/koreanize-matplotlib',
+      description='install & import하는 것만으로 matplotlib에서 프리텐다드를 사용하여 한글 그래프를 표시할 수 있습니다.',
+      author='minsu.kim',
+      author_email='minsu.kim@lunaiz.com',
+      url='https://github.com/lunaiz-corp/koreanize-matplotlib-pretendard',
       long_description=long_description,
       long_description_content_type="text/markdown",
       license='MIT License',
